@@ -1,7 +1,11 @@
-<form action="/login" method="post">
-  <label for="username">username:</label>
-  <input type="text" id="username" name="username"><br><br>
-  <label for="password">password:</label>
-  <input type="password" id="password" name="password"><br><br>
-  <input type="submit" value="login">
+<form action="/login" method="post" style="background-color: lightblue; padding: 20px; border: 1px solid black; border-radius: 10px;">
+  <h1 style="color: white; background-color: blue; padding: 10px; border-radius: 10px;">Login Page</h1>
+  <label for="username" style="font-size: 18px;">username:</label>
+  <input type="text" id="username" name="username" style="height: 30px; font-size: 18px; padding: 10px; border: 1px solid black; border-radius: 5px;"><br><br>
+  <label for="password" style="font-size: 18px;">password:</label>
+  <input type="password" id="password" name="password" style="height: 30px; font-size: 18px; padding: 10px; border: 1px solid black; border-radius: 5px;"><br><br>
+  <input type="submit" value="login" style="height: 40px; font-size: 18px; padding: 10px; border: none; border-radius: 5px; background-color: green; color: white; cursor: pointer;">
+  <p style="font-size: 18px;">Don't have an account? <a href="/register" style="text-decoration: none; color: blue;">Register here</a></p>
+  <p style="font-size: 18px;">For more information, visit our <a href="/contacts" style="text-decoration: none; color: blue;">contacts page</a></p>
+  <img src="logo.png" alt="logo" style="width: 100px; height: 100px; border-radius: 50%; margin: 10px;">
 </form>
